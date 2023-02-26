@@ -1,0 +1,213 @@
+/*navbar*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px 0 80 px;
+    border-bottom: #383d47 solid 1px;
+background-color:white;    height: 120px;
+
+}
+nav h1{
+    padding-top: 35px;
+     color:#915a91;
+    font-weight: 900;
+    font-size: 1.9em;
+    margin-left: 50px;
+    
+}
+#list{ 
+    padding-top:33px ;
+
+    
+}
+#comp{
+    margin-right: 80px;
+    margin-top: 50px;
+    text-decoration: none;
+   font-weight: 400;
+    font-size: 1.5em;
+    color:#424142;
+    width: 100 px;
+    margin:50px;
+
+    
+}
+#comp:hover{
+    color:#915a91;
+    font-weight: 600;
+   
+}
+#search{
+    padding-top: 28px;
+    width: 15vw;
+}
+#search input{
+    padding: 20 px;
+    border-radius: 22px;
+    background-color:white;
+    border:black solid; 
+    width: 100%;
+    height: 40px;
+}
+/*movielist*/
+#card, #addBtn{
+    height:30vw;
+    border:#3a3f49 solid 1px;
+   color: #424142;
+    justify-content: center;
+    box-shadow: 1px 2px 3px #1d2025;
+  
+}
+#addBtn{
+    width: 16.65%;
+}
+#linkCard{
+    width: 16.65%;
+}
+.cards,.cardsH{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    padding: 50px 70px 100px 70px;
+    gap: 50px;
+
+
+}
+#page{
+color:white;
+  height: 160px;
+  background-image: url("https://www.trbimg.com/img-5bec7741/turbine/ct-books-biblioracle-1118");
+  
+
+    
+}
+/*add*/
+.add{
+    background-image: url("https://i0.wp.com/annashra.org/wp-content/uploads/2018/10/cropped-books-wallpaper-49796-51475-hd-wallpapers-5ae20e8503750-1024x576.jpg?ssl=1");
+    background-repeat: no-repeat;
+    width: 100vw;
+    height:100vw ;
+    position:fixed;
+    text-align: center;
+    top:0;
+    left:0;
+}
+#close{
+    position: absolute;
+    top:50px;
+    right:80px ;
+    color: antiquewhite;
+    font-size: 1.5em;
+    border: none;
+    background: none;
+}
+button{
+    cursor: pointer;
+}
+.form{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background: none;
+    margin-left: 34vw;
+}
+.add h1{
+    padding: 50px;
+    color:aliceblue;
+    background: none;
+    border: #1d2025;
+}
+.form input{
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 25px;
+    padding: 15px;
+
+}
+.form button{
+    width:100px;
+    padding: 10px;
+    background-color: #493109;
+    border-radius: 25px;
+    border: none;
+    margin-left: 11vw;
+    color:white;
+    font-weight: 800;
+}
+/*details**/
+.details{
+    position:absolute;
+    color:whitesmoke;
+    top: 14.2%;
+    width: 96.2%;
+    height: 36.1vw;
+   
+    display: flex;
+    padding: 80px 0 0 50px ;
+}
+.descrip, .descripHome{
+    background: none;
+    padding-left: 50px;
+    width: 50%;
+    color:whitesmoke;
+}
+h1,p,img{
+    background: none
+}
+#trailer{
+    padding: 10px;
+    font-size: 1.2em;
+    font-weight: 700;
+    border-radius: 15px;
+    color: antiquewhite;
+    border: white solid ;
+    background-color: #ceac72;
+    margin:10px;
+}
+.show-trailer{
+    width: 100vw;
+    height: 100vw;
+    right: 0;
+    top: 0;
+    position: fixed;
+    background-color: rgba(40, 44, 52, 0.8) ;
+    text-align: center;
+    padding-top: 150px;
+}
+#video{
+   border: none;
+}
+#not{
+    text-align: center;
+    font-size: 3.5em;
+    color: antiquewhite;
+    margin-top: 10vw;
+}
+/*home*/
+.cardHome{
+    position:fixed;
+    margin: 10px;
+}
+.descripHome{
+    position:absolute;
+    top: 0;
+    background-color:  rgba(0, 0, 0, 0.3) ;
+    height: 86%;
+    width: 87.8%;
+    padding-top: 50px;
+    padding-right: 50px;
+    
+}
+.presentation{
+    margin: 100px;
+    padding: 15px;
+    border:rgba(40, 44, 52, 0.8) dashed ;
+    align-items: center;
+    background-image: url("https://graphicriver.img.customer.envatousercontent.com/files/74516469/Book%20a%20background590.jpg?auto=compress%2Cformat&q=80&fit=crop&crop=top&max-h=8000&max-w=590&s=aed3ddc40eb5e086e61fbd3d8d961c30");
+
+}
+#HomeLogo{
+    width: 40px;
+    height:40px;
+}
